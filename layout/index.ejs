@@ -1,0 +1,27 @@
+<div class="main">
+    <div class="posts">
+        <% page.posts.each(function(post) { %>
+        <div class="post">
+            <div class="post-title">
+                <a href="<%- url_for(post.path) %>" class="post-title-link">
+                    <%= post.title %>
+                </a>
+            </div>
+            <div class="post-content">
+                <%- post.excerpt %>
+            </div>
+            <div class="post-more">
+                <a href="<%- url_for(post.path) %>" class="post-title-link">
+                    <%= theme.excerpt_link %>
+                </a>
+            </div>
+            <div class="post-meta">
+                <div class="post-date">
+                    <%- date(post.date, "YY-MM-DD") %>
+                </div>
+            </div>
+        </div>
+        <% }) %>
+    </div>
+</div>
+<%- partial('_partial/paginator') %>
