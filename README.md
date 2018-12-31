@@ -5,6 +5,26 @@ hmm.. :) It's a version 0.0.0.5 . Here is a preview:
 ![zero](./preview/zero.png)
 
 
-## Process
+## Update
 
-Now, it's just can be used for plain text, due to non-highlighting.
+Hah :) Now, it can highlight code-block.
+
+If necessary, I will add tags and categories later.
+
+
+## Usage
+
+```sh
+# cd your-blog/themes
+git clone https://github.com/loveminimal/hexo-theme-zero ./zero
+```
+
+Note that: you must disable the `highlight` of site `_config.yml`, like this:
+
+```yml
+highlight:
+  enable: false
+  line_number: false
+  auto_detect: false
+  tab_replace:
+```
