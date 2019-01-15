@@ -16,7 +16,7 @@ If necessary, I will add tags and categories later.
 
 ```sh
 # cd your-blog
-git clone https://github.com/loveminimal/hexo-theme-zero themes/zero
+git clone https://github.com/loveminimal/hexo-theme-zero.git ./themes/zero
 ```
 
 Note that: you must disable the `highlight` of site `_config.yml`, like this:
