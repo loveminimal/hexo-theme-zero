@@ -1,5 +1,5 @@
 <div class="main">
-    <div class="posts">
+    <!-- <div class="posts">
         <% page.posts.each(function(post) { %>
         <div class="post">
             <div class="post-title">
@@ -22,6 +22,19 @@
             </div>
         </div>
         <% }) %>
-    </div>
+    </div> -->
+    <div class="archive">
+            <ul class="post-archive">
+                <% page.posts.each(function(post) { %>
+                <li class="post-item">
+                    <span class="post-date">
+                        <%= date(post.date, "YY-MM-DD") %></span>
+                    <a href="<%- url_for(post.path) %>" class="post-title">
+                        <%= post.title %>
+                    </a>
+                </li>
+                <% }) %>
+            </ul>
+        </div>
 </div>
 <%- partial('_partial/paginator') %>
