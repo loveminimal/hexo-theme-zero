@@ -30,3 +30,19 @@ highlight:
 ```
 
 and update `theme` fragment as `zero`.
+
+## New Branch Dev
+
+Just for emacs' org-mode. I write a small plugin named `md-exports` based on `gfm-ox`. In fact, you need not care about it. If you swtich `dev` branch, it still run well.
+
+```sh
+# cd your-blog
+git clone https://github.com/loveminimal/hexo-theme-zero.git ./themes/zero
+# cd ./themes/zero
+# show all remote branchs
+git branch -a
+# create a special branch (dev) and associate it to origin/dev
+git checkout -b dev origin/dev
+```
+
+Now, you can enjoy a simpler zero.
