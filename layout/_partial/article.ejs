@@ -6,7 +6,10 @@
     </div> -->
     <div class="article-meta">
         <div class="article-date">
-            <%- date(page.date, "YYYY-MM-DD") %>
+            <i class="fas fa-edit"></i>
+            <%- date(page.date, "YYYY/MM/DD ddd hh:mm:ss") %><br>
+            <i class="fas fa-redo"></i>
+            <%- date(page.updated, "YYYY/MM/DD ddd hh:mm:ss") %>
         </div>
     </div>
     <div class="article-content">
