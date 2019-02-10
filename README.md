@@ -7,6 +7,12 @@ hmm.. :) It's a version 0.0.1 . Here is a preview:
 
 ## Update
 
+I almost just use `dev` branch, `master` branch updates less... Haha
+
+:) You can try it .
+
+---
+
 Hah :) Now, it can highlight code-block.
 
 If necessary, I will add tags and categories later.
