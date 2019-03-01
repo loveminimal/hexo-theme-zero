@@ -1,0 +1,28 @@
+** NOTE
+
+I have merged branch dev to master :) Now, you can enjoy a simpler zero.
+
+** Introduction
+
+hmm.. :) It's a version 0.0.1 . Here is a preview:
+
+[[./preview/zero.png]]
+
+** Usage
+
+#+BEGIN_SRC sh
+  # cd your-blog
+  git clone https://github.com/loveminimal/hexo-theme-zero.git ./themes/zero
+#+END_SRC
+
+Note that: you must disable the =highlight= of site =_config.yml=, like this:
+
+#+BEGIN_EXAMPLE
+  highlight:
+    enable: false
+    line_number: false
+    auto_detect: false
+    tab_replace:
+#+END_EXAMPLE
+
+and update =theme= fragment as =zero=.
