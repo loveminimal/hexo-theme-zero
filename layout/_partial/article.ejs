@@ -1,12 +1,16 @@
 <div class="article">
-    <div class="article-title">
+    <!-- <div class="article-title">
         <h2>
             <%= page.title %>
         </h2>
-    </div>
+    </div> -->
     <div class="article-meta">
         <div class="article-date">
-            <%- date(page.date, "YYYY-MM-DD") %>
+            <i class="fas fa-edit"></i>
+            <%- date(page.date, "YYYY/MM/DD ddd HH:mm") %>&nbsp;&nbsp;&nbsp;
+            <span class="just-a-temp"><span>
+            <i class="fas fa-redo"></i>
+            <%- date(page.updated, "YYYY/MM/DD ddd HH:mm") %>
         </div>
     </div>
     <div class="article-content">

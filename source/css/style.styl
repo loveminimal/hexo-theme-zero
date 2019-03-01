@@ -27,9 +27,19 @@ jk_img-style =
     transform: scale(1.01)
 
 jk_inline-code-style =
-  blockquote, p, li
+  blockquote, p, li, th, td
     code 
       color: #4682B4
+
+jk_table-style =
+    width: 100%
+    background-color: #eeeeee
+    th, td
+      background-color #ffffff
+      padding: 0.2% 2%
+
+
+      
 
 body
   margin: 0
@@ -73,3 +83,25 @@ h5
 @import "_partial/article"
 @import "_partial/archive"
 @import "_partial/paginator"
+
+// @media screen and (max-width: 768px) {
+//     body {
+//         background-color:#ffffff;
+//         font-size: 2.5em;
+//     }
+
+//     .post-title {
+//       margin-left: 4%;  
+//     }
+
+//     .article {
+//       font-size: 1.1em;  
+//     }
+//     .article h1, h2 {
+//       font-size: 1.2em;
+//     }
+
+//     .article .just-a-temp {
+//       display: block;  
+//     }
+// }
