@@ -22,19 +22,6 @@
             </div>
         </div>
         <% }) %>
-    </div> -->
-    <div class="archive">
-            <ul class="post-archive">
-                <% page.posts.each(function(post) { %>
-                <li class="post-item">
-                    <span class="post-date">
-                        <%= date(post.date, "YY-MM-DD") %></span>
-                    <a href="<%- url_for(post.path) %>" class="post-title">
-                        <%= post.title %>
-                    </a>
-                </li>
-                <% }) %>
-            </ul>
-        </div>
-</div>
+    </div> -->  
+<%- partial('archive') %>
 <%- partial('_partial/paginator') %>
