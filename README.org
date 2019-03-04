@@ -1,10 +1,14 @@
-** NOTE
+** update
+
+Add local search feature, so you can have what you need.
+
+** Note
 
 I have merged branch dev to master :) Now, you can enjoy a simpler zero.
 
 ** Introduction
 
-hmm.. :) It's a version 0.0.1 . Here is a preview:
+hmm.. :) It's a version 0.0.2 . Here is a preview:
 
 [[./preview/zero.png]]
 
