@@ -3,4 +3,8 @@
         2018 <i class="fab fa-studiovinari"></i> <%= config.author %> <i class="fas fa-angle-double-up"></i>
     </a>
 </div>
-<%- js('js/totop.js') %>
+<% if (page.layout === 'article') { %>
+  <%- js('js/totop.js') %>
+<% } %>
+
+<%- js('js/search.js') %>
