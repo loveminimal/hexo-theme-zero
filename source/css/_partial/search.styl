@@ -1,101 +1,108 @@
 /*搜索框*/
 .search
   width: 30%
-  height: 18px;
-  margin-top: 1px;
-  padding: 0;
-  font-family: inherit;
-  border: 2px solid transparent;
-  border-bottom: 2px solid #d3d3d3;
-  border-radius: 2px;
-  opacity: 0.65;
-  background: none;
+  height: 18px
+  margin-top: 1px
+  padding: 0
+  font-family: inherit
+  border: 2px solid transparent
+  border-bottom: 2px solid #d3d3d3
+  border-radius: 2px
+  opacity: 0.65
+  background: none
 
 
 .search:hover
-  border: 2px solid #d3d3d3;
-  opacity: 1;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  border-bottom: 2px solid #d3d3d3
+  opacity: 1
+
+.search:focus
+  outline: none
+  border-bottom: 2px solid #1eaeff
 
 
 /*搜索重置按钮*/
 #search-form .fa-times
-  display: none;
-  padding: 1px 0.7em;
-  box-shadow: 0 0 3px rgba(0,0,0,0.15);
-  cursor: pointer;
-  color: #808080;
+  display: none
+  padding: 1px 0.7em
+  box-shadow: 0 0 3px rgba(0,0,0,0.15)
+  cursor: pointer
+  color: #808080
+  border-radius: 10%
 
 
 #search-form .fa-times:active
-  background: #d3d3d3;
+  background: #d3d3d3
 
 
 #search-form .fa-times:hover
-  zoom: 1.1;
-  padding: 1px 0.6em;
-  border: 1px solid #d3d3d3;
-  box-shadow: 0 0 6px rgba(0,0,0,0.25);
+  zoom: 1.1
+  padding: 1px 0.6em
+  border: 1px solid #d3d3d3
+  box-shadow: 0 0 6px rgba(0,0,0,0.25)
 
 
 
 /*搜索结果区*/
 #local-search-result
-  margin: auto 0% auto -4%;
-  font-size: 0.9em;
-  text-align: left;
-  word-break: break-all;
+  margin: auto 0% auto -4%
+  font-size: 1em
+  text-align: left
+  word-break: break-all
   ul 
     list-style: none
 
 
 #local-search-result ul.search-result-list li:hover
-  font-weight: normal;
+  font-weight: normal
 
 
 /*单条搜索结果*/
 #local-search-result li
-  margin: 0.5em auto;
-  border-bottom: 2px solid #d3d3d3;
+  margin: 0.5em auto
+  border-bottom: 2px solid #eeeeee
 
+
+#local-search-result .search-result-list li
+  transition: 0.3s all linear
 
 #local-search-result .search-result-list li:hover
-  background: rgba(158,188,226,0.21);
-  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  padding-left: 2%
+  list-style: circle // decimal
 
 
 /*匹配的标题*/
 #local-search-result a.search-result-title
-  line-height: 1.2;
-  font-weight: bold;
-  color: #708090;
+  line-height: 1.2
+  font-weight: bold
+  color: #708090
 
 
 /*搜索预览段落*/
 #local-search-result p.search-result
-  margin: 0.4em auto;
-  line-height: 1.2em;
-  max-height: 3.6em;
-  overflow: hidden;
-  font-size: 0.8em;
-  text-align: justify;
-  color: #808080;
+  margin: 0.4em auto
+  line-height: 1.2em
+  max-height: 3.6em
+  overflow: hidden
+  font-size: 0.8em
+  text-align: justify
+  color: #808080
 
 
 /*匹配的关键词*/
 #local-search-result em.search-keyword
-  color: #f58e90;
-  border-bottom: 1px dashed #f58e90;
-  font-weight: bold;
-  font-size: 0.85em;
+  color: #f58e90
+  border-bottom: 1px dashed #f58e90
+  font-weight: bold
+  font-size: 0.85em
 
 
 /*无匹配搜索结果时显示*/
 p.no-result
-  display: none;
-  margin: 2em 0 2em 6%;
-  padding-bottom: 0.5em;
-  text-align: left;
-  color: #808080;
-  font-family: font-serif serif;
-  border-bottom: 2px solid #d3d3d3;
+  display: none
+  margin: 2em 0 2em 6%
+  padding-bottom: 0.5em
+  text-align: left
+  color: #808080
+  font-family: font-serif serif
+  // border-bottom: 2px solid #d3d3d3
