@@ -10,16 +10,14 @@
   border-radius: 2px
   opacity: 0.65
   background: none
+  &:hover
+    border-bottom: 2px solid #d3d3d3
+    opacity: 1
+  &:focus
+    outline: none
+    border-bottom: 2px solid #1eaeff
 
-
-.search:hover
-  border-bottom: 2px solid #d3d3d3
-  opacity: 1
-
-.search:focus
-  outline: none
-  border-bottom: 2px solid #1eaeff
-
+  
 
 /*搜索重置按钮*/
 #search-form .fa-times
@@ -29,17 +27,13 @@
   cursor: pointer
   color: #808080
   border-radius: 10%
-
-
-#search-form .fa-times:active
-  background: #d3d3d3
-
-
-#search-form .fa-times:hover
-  zoom: 1.1
-  padding: 1px 0.6em
-  border: 1px solid #d3d3d3
-  box-shadow: 0 0 6px rgba(0,0,0,0.25)
+  &:active
+    background: #d3d3d3
+  &:hover
+    zoom: 1.1
+    padding: 1px 0.6em
+    border: 1px solid #d3d3d3
+    box-shadow: 0 0 6px rgba(0,0,0,0.25)
 
 
 
@@ -51,10 +45,8 @@
   word-break: break-all
   ul 
     list-style: none
-
-
-#local-search-result ul.search-result-list li:hover
-  font-weight: normal
+  ul.search-result-list li:hover
+    font-weight: normal
 
 
 /*单条搜索结果*/
@@ -65,10 +57,9 @@
 
 #local-search-result .search-result-list li
   transition: 0.3s all linear
-
-#local-search-result .search-result-list li:hover
-  padding-left: 2%
-  list-style: circle // decimal
+  &:hover
+    padding-left: 2%
+    list-style: circle // decimal
 
 
 /*匹配的标题*/
@@ -105,4 +96,3 @@ p.no-result
   text-align: left
   color: #808080
   font-family: font-serif serif
-  // border-bottom: 2px solid #d3d3d3
