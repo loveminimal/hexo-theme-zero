@@ -1,16 +1,18 @@
-** update
+** Update
 
-Add local search feature, so you can have what you need.
+Now, it has a performance in mobile. 
 
 ** Note
 
 I have merged branch dev to master :) Now, you can enjoy a simpler zero.
 
+Add local search feature, so you can have what you need. Just use search instead of tag and category.
+
 ** Introduction
 
-hmm.. :) It's a version 0.0.2 . Here is a preview:
+hmm.. :) It's a version 0.1.0 . Here is a preview:
 
-[[./preview/zero.png]]
+[[./preview/zero.jpg]]
 
 ** Usage
 
