@@ -13,4 +13,8 @@ window.addEventListener('scroll', () => {
     if (window.scrollY >= 800) {
         totopblock.style.visibility = 'visible';
     }
+
+    if(window.scrollY == 0) {
+        totopblock.style.visibility = 'hidden';
+    }
 })
