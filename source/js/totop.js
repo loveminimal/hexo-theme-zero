@@ -1,8 +1,16 @@
-// Doubly click the body to top
+let totopblock = document.querySelector('.totop');
 
-let atc = document.querySelector('.article');
-// atc.setAttribute('ondblclick', 'toTop()');
-atc.ondblclick = function() {
-    // document.documentElement.scrollTop = 0;
-    window.scrollTo({top: 0, behavior: 'auto'});    // instant, smooth, auto
+
+totopblock.onclick = toTop;
+function toTop() {
+    window.scrollTo({ top: 0, behavior: 'auto' });    // instant, smooth, auto
+    totopblock.style.visibility = 'hidden';
 }
+
+
+window.addEventListener('scroll', () => {
+
+    if (window.scrollY >= 800) {
+        totopblock.style.visibility = 'visible';
+    }
+})
