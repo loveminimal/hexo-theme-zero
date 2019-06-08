@@ -1,23 +1,8 @@
-** Update-T0D0
+** Intro
 
-- A 404 page;
-- A dark theme :)
+Hmm.. :) It's a version 1.0.0. Here is a preview:
 
-** Update
-
-Now, it has a better performance in mobile. 
-
-** Note
-
-I have merged branch dev to master :) Now, you can enjoy a simpler zero.
-
-Add local search feature, so you can have what you need. Just use search instead of tag and category.
-
-** Introduction
-
-hmm.. :) It's a version 0.1.0 . Here is a preview:
-
-[[./preview/zero.jpg]]
+[[./preview/zero.png]]
 
 ** Usage
 
@@ -26,14 +11,16 @@ hmm.. :) It's a version 0.1.0 . Here is a preview:
   git clone https://github.com/loveminimal/hexo-theme-zero.git ./themes/zero
 #+END_SRC
 
-Note that: you must disable the =highlight= of site =_config.yml=, like this:
+Note that: you must disable the =highlight= of site =_config.yml=, and update =theme= fragment as =zero=.
 
 #+BEGIN_EXAMPLE
+  # highlight settings
   highlight:
     enable: false
     line_number: false
     auto_detect: false
     tab_replace:
-#+END_EXAMPLE
 
-and update =theme= fragment as =zero=.
+  # theme settings
+  theme: zero
+#+END_EXAMPLE
