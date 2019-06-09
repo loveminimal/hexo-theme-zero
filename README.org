@@ -2,7 +2,7 @@
 
 Hmm.. :) It's a version 1.0.0. Here is a preview:
 
-[[./preview/zero.png]]
+[[./preview/zero.jpg]]
 
 ** Usage
 
