@@ -1,3 +1,11 @@
+** Preface
+
+Hey, guys. To me, this theme is quite stable now, though it is simple, even has no tags and categories. But believe me, via the built-in search, you will have a better experence.
+
+As a emacs user, I prefer =.org=. And that is why I make this theme, which can adapt to org-export better.
+
+Hexo is an awesome generator, of course, I like it. Hmm.. but now I want to have a try on Hugo :) So this theme may be update slower. But if you have some questions in using it, let me know, and I am so glad to solve it with you together.
+
 ** Intro
 
 Hmm.. :) It's a version 1.0.0. Here is a preview:
