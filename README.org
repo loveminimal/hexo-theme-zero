@@ -35,4 +35,4 @@ Note that: you must disable the =highlight= of site =_config.yml=, and update =t
 
 ** Demo
 
-- [[https://chocomint.netlify.com/][]]
+- [[https://chocomint.netlify.com/]]
