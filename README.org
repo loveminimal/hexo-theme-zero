@@ -1,3 +1,8 @@
+** 💡 Tip
+
+Yeah, like you see that, it hasn't been updated for some years. Now (2022-10-10 23:00), I have tried to clone, run and fix it, 😹 But it's really so boring. Emm... anyway, hugo is also a good choice 😅 - [[https://github.com/loveminimal/hugo-theme-virgo][hugo-theme-virgo]]. 
+
+
 ** Preface
 
 Hey, guys. To me, this theme is quite stable now, though it is simple, even has no tags and categories. But believe me, via the built-in search, you will have a better experence.
